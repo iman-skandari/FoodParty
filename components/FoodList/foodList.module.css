@@ -1,0 +1,29 @@
+.foodContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 6rem;
+}
+.foodImg {
+  margin: 1.5rem 0;
+  background-color: rgb(249, 173, 81);
+  width: 100wh;
+  padding: 1rem;
+  border-radius: 16px;
+  opacity: 0.8;
+}
+.foodImg img {
+  width: 100vw;
+  border-radius: 8px;
+}
+.foodCard2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 248, 200);
+}

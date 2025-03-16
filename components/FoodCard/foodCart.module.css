@@ -1,0 +1,95 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+  color: #e0e0e0;
+  padding: 16px;
+  margin: 16px;
+  cursor: pointer;
+  text-align:start;
+}
+
+.card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.imageContainer {
+  position: relative;
+  width: 100wh;
+  flex: 1;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+.image {
+  width: 750px;
+  height: 450px;
+  border-radius: 8px;
+
+  object-position: center;
+}
+
+.content {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid #d5d5d5;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.content :hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  font-size: 1.25rem;
+  margin: 12px 0;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #585757;
+ 
+
+}
+
+.description {
+  font-size: 1rem;
+  color: #b54545;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 450px;
+ 
+}
+
+.favoriteButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    height: 150px;
+  }
+
+  .title {
+    font-size: 1.1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+}

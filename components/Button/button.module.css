@@ -1,0 +1,18 @@
+.buttonContainer{
+    background-color: aliceblue;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: chocolate;
+    border: 1px solid gray;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.buttonContainer button{
+    text-align: center;
+    cursor: pointer;
+}

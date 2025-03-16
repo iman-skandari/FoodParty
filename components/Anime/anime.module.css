@@ -1,0 +1,59 @@
+.bowling-alley {
+    border-radius: 0px;
+    background-color: rgb(222, 184, 135);
+    position: relative;
+    width: 8000px;
+    height: 100px;
+    }
+    .ball {
+    position: top;
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+    background-color: rgb(160, 15, 15);
+    }
+
+.animationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-radius: 20px;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.foodPlate {
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  cursor: grab;
+}
+
+.foodPlate:active {
+  cursor: grabbing;
+}
+
+.foodEmojis {
+  font-size: 2rem;
+  letter-spacing: 5px;
+}
+
+.animationTitle {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
